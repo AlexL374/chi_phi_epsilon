@@ -20,14 +20,14 @@ m1Submit.onclick = function() {
     if (date) {
         today = new Date(date);
     }
+    console.log(date);
+    console.log(today);
     var m2brother = document.getElementById('m2brother').value.split(' ');
     var shift = 0;
     var brotherNumber = 0;
     var table = document.getElementById('m2table');
     while (shift <= 28) {
         if (weekday[today.getDay()] == 'Wednesday' || weekday[today.getDay()] == 'Sunday') {
-            //console.log(formatDate(today));
-            //console.log(m2brother[brotherNumber])
             var row = table.insertRow(table.rows.length);
             var cell1 = row.insertCell(0);
             cell1.classList.add('datetext')
