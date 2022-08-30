@@ -1,0 +1,37 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.title {
+    text-align: center;
+}
+
+.main {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-right: 0;
+}
+
+.annex {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.bold {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 12;
+}
+
+#m2brother {
+    width: 20vw;
+}
