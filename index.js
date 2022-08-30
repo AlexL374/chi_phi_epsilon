@@ -16,7 +16,7 @@ m1Submit.onclick = function() {
     if (date && !checkDateInput(date)) {
         return;
     }
-    else if (date) {
+    if (date) {
         today = new Date(date);
     }
     var m2brother = document.getElementById('m2brother').value.split(' ');
