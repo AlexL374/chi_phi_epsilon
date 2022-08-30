@@ -16,11 +16,11 @@ m1Submit.onclick = function() {
     if (date && !checkDateInput(date)) {
         return;
     }
+    var today = new Date();
     if (date) {
         today = new Date(date);
     }
     var m2brother = document.getElementById('m2brother').value.split(' ');
-    var today = new Date();
     var shift = 0;
     var brotherNumber = 0;
     var table = document.getElementById('m2table');
